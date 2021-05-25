@@ -1,0 +1,17 @@
+.proyects{
+    place-self: start center;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,400px);    
+    gap: 2em;
+    place-items: start center;
+}
+#title{
+    color: white;
+    text-align: center;
+}
+.description{
+    font-size: 1.5rem;
+}
+.thumbnail {
+    height:400px;
+}

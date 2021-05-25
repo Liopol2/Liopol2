@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+.sidebar{
+    grid-area: sidebar;    
+    display: grid;
+    height: 100%;    
+    background-color: rgb(41, 41, 41);
+    justify-items: center;   
+    justify-content: center;
+    margin: 0;
+    grid-template-rows: repeat(3vh);
+    grid-template-areas:'logo'
+    '.'
+    '.'
+    '.'
+    '.'
+    '.'
+    '.'
+    'whoami'
+    'devlog'
+    'proyects';    
+}
+
+#logo{
+    width: 3vw;
+    padding:.5vw;
+    border: 2px solid ;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+}
+.logo-div{    
+    grid-area: logo;
+}
+/* 
+.whoami-div{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    border-radius: 25%;
+}
+.devlog-div{
+    background-color: white;
+    border-radius: 25%;
+}
+.proyects-div{
+    background-color: white;
+    border-radius: 25%;
+} */
+
+.nav-logo{
+    background-color: white;
+    border-radius: 25%;
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+}
+
+.navlink{
+    font-family: 'Playfair Display', serif;
+    font-size:1rem;
+    color: white;
+}

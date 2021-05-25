@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+.home-div{
+    font-family: 'Odibee Sans', cursive;
+    text-align: center;
+    width: 50%;
+    color:white;
+    background-color: black;
+    opacity: 0.8;
+    margin: auto;    
+}
+.greetings{
+    background-color: black;
+    opacity: 0.8;
+    place-content: center center;
+}
+a,h4,.link{
+    font-family: 'Odibee Sans', cursive;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
+h1,p{
+    font-family: 'Odibee Sans', cursive;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+}

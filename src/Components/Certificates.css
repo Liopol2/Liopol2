@@ -1,0 +1,19 @@
+#Certificates{
+    place-content: start center;
+}
+.certificate-container{
+    place-self: start center;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px,1fr));
+    grid-template-rows: repeat(auto-fit,400px);
+    gap: 2em;
+}
+#title{
+    text-align: center;
+    width: max-content;
+}
+.thumbnail{
+    place-self: start center;
+    width: 90%;    
+}
